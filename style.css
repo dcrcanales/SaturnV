@@ -1,0 +1,51 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.navbar-brand {
+  padding-top: 23%;
+  padding-bottom: 23%;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: fadeInDown;
+}
+.nav-link {
+  color: black;
+  font-family: "Turret Road", cursive;
+  text-decoration-line: underline;
+  padding-bottom: 15%;
+}
+.title {
+  padding: 23%;
+  padding-bottom: 40%;
+  font-family: "Martel", serif;
+  font-weight: 600;
+}
+.img-back {
+  height: 30%;
+  background-image: url(bgimg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.text-justify {
+  padding-top: 20%;
+  font-family: "Martel", serif;
+}
+
+.container {
+  padding-bottom: 12%;
+}
+.text1 {
+  color: rgb(248, 249, 250);
+  padding-bottom: 3%;
+  padding-top: 10%;
+  transition-property: color, font-size;
+  transition-duration: 2s, 5s;
+  transition-timing-function: ease-in-out, linear;
+}
+.text1:hover {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
